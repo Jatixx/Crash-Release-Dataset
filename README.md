@@ -57,7 +57,10 @@ The data is provided in CSV format with the following columns:
 ### Label
 - **crash_label**: Classification label (CRASH or NON_CRASH)
 
-## Data Source
-
 This CSV file contains new labels while maintaining the same metrics for each release:
+
+## mobile_apps.zip
+This file contains folders for multiple Android applications, each with release logs and metrics. Each release log file contains all commits made in that specific release. Additionally, each app has a CSV file with the code metrics. Note that from all the applications included in this file, only the ten apps from the original study were used for this work.
+
+
 
