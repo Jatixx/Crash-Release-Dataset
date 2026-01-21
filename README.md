@@ -23,6 +23,9 @@ The data follows this structure:
 PROJECT:COMMIT_HASH
 Commit Message
 ```
+## Data Source
+
+The fixing in this file were identified from previous work.
 
 Where:
 - **PROJECT**: The name of the Android project
