@@ -8,29 +8,8 @@ The data is provided in CSV format with three columns:
 - **INTRODUCE**: Git commit hash of the release that introduced the crash
 - **FIX**: Git commit hash of the release that fixed the crash
 
-## Data Source
+These are the crashing releases from the previous work.
 
-The crashing releases in this dataset were identified from previous work.
-
-## log_of_crashes.txt
-
-This file contains the commit messages that identified releases as crashing releases. Each entry shows the commit hash and the relevant message that indicated a crash was fixed.
-
-## File Format
-
-The data follows this structure:
-```
-PROJECT:COMMIT_HASH
-Commit Message
-```
-## Data Source
-
-The fixing in this file were identified from previous work.
-
-Where:
-- **PROJECT**: The name of the Android project
-- **COMMIT_HASH**: Commit hash
-- **COMMIT_MESSAGE**: The commit message that indicates a crash was fixed
 
 ## mobile_app_releases.csv
 This dataset contains metrics and labels for mobile app releases, including crash labels. It extends the work from "Predicting Crashing Releases of Mobile Applications" (Xia et al., 2016) by incorporating new labels while maintaining the same metrics for each release.
