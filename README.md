@@ -1,17 +1,6 @@
 # Crash-Release-Dataset
 This dataset contains labeled mobile app releases for crash prediction research. It extends the work from "Predicting Crashing Releases of Mobile Applications" (Xia et al., 2016) by providing updated crash labels while maintaining the original metrics for each release. The dataset includes release-level metrics across multiple dimensions (complexity, time, code, diffusion, commit, and text) for Android applications.
 
-## list_of_versions_that_introduce_crashes.txt
-
-The data is provided in CSV format with three columns:
-
-- **PROJECT**: The name of the Android project
-- **INTRODUCE**: Git commit hash of the release that introduced the crash
-- **FIX**: Git commit hash of the release that fixed the crash
-
-These are the crashing releases from the previous work.
-
-
 ## mobile_app_releases.csv
 This dataset contains metrics and labels for mobile app releases, including crash labels. It extends the work from "Predicting Crashing Releases of Mobile Applications" (Xia et al., 2016) by incorporating new labels while maintaining the same metrics for each release.
 
@@ -62,6 +51,17 @@ This CSV file contains new labels while maintaining the same metrics for each re
 
 ## mobile_apps.zip
 This file contains folders for multiple Android applications, each with release logs and metrics. Each release log file contains all commits made in that specific release. Additionally, each app has a CSV file with the code metrics. Note that from all the applications included in this file, only the ten apps from the original study were used for this work.
+
+## list_of_versions_that_introduce_crashes.txt
+
+The data is provided in CSV format with three columns:
+
+- **PROJECT**: The name of the Android project
+- **INTRODUCE**: Git commit hash of the release that introduced the crash
+- **FIX**: Git commit hash of the release that fixed the crash
+
+These are the crashing releases from the previous work.
+
 
 
 
