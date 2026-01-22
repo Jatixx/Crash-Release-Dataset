@@ -1,4 +1,5 @@
 # Crash-Release-Dataset
+This dataset contains labeled mobile app releases for crash prediction research. It extends the work from "Predicting Crashing Releases of Mobile Applications" (Xia et al., 2016) by providing updated crash labels while maintaining the original metrics for each release. The dataset includes release-level metrics across multiple dimensions (complexity, time, code, diffusion, commit, and text) for Android applications.
 
 ## list_of_versions_that_introduce_crashes.txt
 
